@@ -1,0 +1,20 @@
+{
+  "name": "notebooklm-a-practitioners-guide",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "NotebookLM: A Practitioner's Guide — build scripts",
+  "private": true,
+  "scripts": {
+    "svg-to-png": "node scripts/svg-to-png.mjs",
+    "postsvg-to-png": "node scripts/svg-layout-audit.mjs images || true",
+    "audit:layout": "node scripts/svg-layout-audit.mjs",
+    "build": "bash build.sh"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "glob": "^10.4.5"
+  },
+  "allowScripts": {
+    "sharp@0.33.5": true
+  }
+}

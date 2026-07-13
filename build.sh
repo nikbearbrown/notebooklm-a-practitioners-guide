@@ -22,6 +22,7 @@ print('\n\n'.join(parts))
 pandoc "$OUTPUT_DIR/combined.md" \
   --from markdown \
   --to epub3 \
+  --resource-path=. \
   --epub-cover-image=cover.jpg \
   --css=styles/kindle.css \
   --css=styles/kindle-book.css \
@@ -32,6 +33,7 @@ pandoc "$OUTPUT_DIR/combined.md" \
   --from markdown \
   --to html5 \
   --standalone \
+  --resource-path=. \
   --css=styles/kindle.css \
   --css=styles/kindle-book.css \
   --toc \
