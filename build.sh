@@ -19,7 +19,10 @@ for f in files:
 print('\n\n'.join(parts))
 " > "$OUTPUT_DIR/combined.md"
 
-pandoc "$OUTPUT_DIR/combined.md" \
+# Rewrite ../images/ → images/ for pandoc (chapters use ../images/ for GitHub; pandoc needs images/ relative to book root)
+sed 's|(../images/|(images/|g' "$OUTPUT_DIR/combined.md" > "$OUTPUT_DIR/combined-build.md"
+
+pandoc "$OUTPUT_DIR/combined-build.md" \
   --from markdown \
   --to epub3 \
   --resource-path=. \
@@ -29,7 +32,7 @@ pandoc "$OUTPUT_DIR/combined.md" \
   --toc --toc-depth=2 \
   --output="$OUTPUT_DIR/$BOOK_SLUG.epub"
 
-pandoc "$OUTPUT_DIR/combined.md" \
+pandoc "$OUTPUT_DIR/combined-build.md" \
   --from markdown \
   --to html5 \
   --standalone \

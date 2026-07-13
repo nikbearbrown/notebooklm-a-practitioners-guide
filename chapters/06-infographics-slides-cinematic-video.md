@@ -15,7 +15,7 @@ All three features are restricted to users 18 and older.
 
 <!-- → [TABLE: Advanced output comparison — columns: Output, What it generates, What you edit, Best use case, 18+ only?. Rows: Infographic / Slide Deck / Cinematic Video.] -->
 
-![Table comparing three advanced NotebookLM outputs — Infographic, Slide Deck, Cinematic Video — showing what each generates, what the user edits, best use case, and age restriction](images/06-infographics-slides-cinematic-video-tbl-01.png)
+![Table comparing three advanced NotebookLM outputs — Infographic, Slide Deck, Cinematic Video — showing what each generates, what the user edits, best use case, and age restriction](../images/06-infographics-slides-cinematic-video-tbl-01.png)
 *All three are starting points. The model handles volume and consistency. You handle the slides and frames that carry the most cognitive weight.*
 
 ---

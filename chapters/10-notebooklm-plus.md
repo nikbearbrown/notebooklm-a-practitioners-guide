@@ -13,7 +13,7 @@ Two limits matter: how many sources you can load per notebook, and whether you n
 
 <!-- → [TABLE: Free tier vs. NotebookLM Plus — columns: Feature, Free, Plus. Rows: Sources per notebook / Audio Overviews / Custom instructions / Notebook analytics / Priority access.] -->
 
-![Comparison table of NotebookLM free tier versus Plus tier across sources per notebook, Audio Overviews, custom instructions, notebook analytics, and priority access](images/10-notebooklm-plus-tbl-01.png)
+![Comparison table of NotebookLM free tier versus Plus tier across sources per notebook, Audio Overviews, custom instructions, notebook analytics, and priority access](../images/10-notebooklm-plus-tbl-01.png)
 *The free tier is sufficient for most use cases. Upgrade when you hit the 50-source cap or need custom instructions for a recurring workflow.*
 
 **Sources per notebook.** Free gives you 50. Plus gives you 300. For most projects — a case file, a literature review, a policy analysis — 50 is enough. When you manage a large ongoing corpus — a regulatory docket, a research archive, a multi-year client knowledge base — you will hit the cap. At that point, you are either splitting work across notebooks (losing the cross-corpus query benefit) or upgrading.

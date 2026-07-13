@@ -37,7 +37,7 @@ The map also does not tell you which claims are important. A concept that appear
 
 <!-- → [FIGURE: Mind Map use cases — three-panel: (1) orientation pass: start with the map, identify the 3–5 central nodes, then read those sections first; (2) gap check: look for concepts you expected to see that are absent; (3) navigation: click a node to jump to the source passage. Caption: The map is a table of contents for your corpus, not a summary of its argument.] -->
 
-![Three-panel Mind Map use case diagram: orientation (find central nodes), gap check (identify missing concepts), navigation (click nodes to reach source passages)](images/05-mind-map-fig-01.png)
+![Three-panel Mind Map use case diagram: orientation (find central nodes), gap check (identify missing concepts), navigation (click nodes to reach source passages)](../images/05-mind-map-fig-01.png)
 *The map is a table of contents for your corpus, not a summary of its argument.*
 
 ---

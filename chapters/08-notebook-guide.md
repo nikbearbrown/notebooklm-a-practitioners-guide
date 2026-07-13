@@ -47,7 +47,7 @@ The method is three hops.
 
 <!-- → [FIGURE: Three-hop question chain from Notebook Guide — start: suggested question from Notebook Guide → answer with citations → follow-up question from the answer → answer with citations → third question from the second answer → answer. Caption: Three hops from a suggested question usually surfaces the core structure of the corpus.] -->
 
-![Three-hop question chain showing progression from Notebook Guide suggested question through two follow-up questions, each answered with source citations](images/08-notebook-guide-fig-01.png)
+![Three-hop question chain showing progression from Notebook Guide suggested question through two follow-up questions, each answered with source citations](../images/08-notebook-guide-fig-01.png)
 *Three hops from a suggested question usually surfaces the core structure of the corpus.*
 
 Three hops from a single surprising question will take you deeper into the corpus than skimming every source in the notebook. The chain works because each answer reveals something the previous question didn't address — and the model always grounds answers in citations, so you can verify the path.

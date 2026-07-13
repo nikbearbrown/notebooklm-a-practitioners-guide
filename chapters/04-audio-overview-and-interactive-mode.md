@@ -63,7 +63,7 @@ This changes the cognitive demand. Passive listening is low-effort processing �
 
 <!-- → [FIGURE: Audio Overview vs. Interactive Mode — two-column comparison: what the listener does, what the AI does, what gets cited, best use case. Caption: The difference is cognitive mode. Audio is receiving. Interactive is producing.] -->
 
-![Two-column comparison of Audio Overview versus Interactive Mode showing what the listener does, what the AI does, how citations work, and best use case for each](images/04-audio-overview-and-interactive-mode-fig-01.png)
+![Two-column comparison of Audio Overview versus Interactive Mode showing what the listener does, what the AI does, how citations work, and best use case for each](../images/04-audio-overview-and-interactive-mode-fig-01.png)
 *The difference is cognitive mode. Audio is receiving. Interactive is producing.*
 
 ---

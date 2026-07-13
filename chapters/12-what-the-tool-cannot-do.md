@@ -7,7 +7,7 @@ NotebookLM's limits are specific, predictable, and diagnosable. Each produces a 
 
 <!-- → [TABLE: Limit reference — columns: Limit, What failure looks like, Detection method, Mitigation. Rows: Hallucination / Scanned PDF / Embedded images / Real-time info / Large file truncation / Multi-source contradictions.] -->
 
-![Limit reference table for NotebookLM covering hallucination, scanned PDFs, embedded images, real-time information gaps, large file truncation, and multi-source contradictions with detection methods and mitigations for each](images/12-what-the-tool-cannot-do-tbl-01.png)
+![Limit reference table for NotebookLM covering hallucination, scanned PDFs, embedded images, real-time information gaps, large file truncation, and multi-source contradictions with detection methods and mitigations for each](../images/12-what-the-tool-cannot-do-tbl-01.png)
 *These limits are specific and diagnosable. Learn the signature of each before you depend on the output.*
 
 ---
