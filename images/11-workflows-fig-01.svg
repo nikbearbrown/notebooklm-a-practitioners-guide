@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="220" fill="#ffffff"/>
+
+  <!-- ── ROW 1 ── -->
+
+  <!-- Box 1: Upload Corpus -->
+  <rect x="10" y="15" width="130" height="44" rx="4" fill="#0072B2"/>
+  <text x="75" y="33" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Upload</text>
+  <text x="75" y="50" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Corpus</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="140" y1="37" x2="160" y2="37" stroke="#555555" stroke-width="2"/>
+  <polygon points="160,33 168,37 160,41" fill="#555555"/>
+
+  <!-- Box 2: Notebook Guide -->
+  <rect x="168" y="15" width="130" height="44" rx="4" fill="#56B4E9"/>
+  <text x="233" y="33" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Notebook</text>
+  <text x="233" y="50" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Guide</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="298" y1="37" x2="318" y2="37" stroke="#555555" stroke-width="2"/>
+  <polygon points="318,33 326,37 318,41" fill="#555555"/>
+
+  <!-- Box 3: Cross-Corpus Query (highlighted / highest leverage) -->
+  <rect x="326" y="10" width="140" height="54" rx="4" fill="#E69F00" stroke="#c07d00" stroke-width="2"/>
+  <text x="396" y="30" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Cross-Corpus</text>
+  <text x="396" y="47" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Query</text>
+  <!-- Star marker for highest-leverage -->
+  <text x="458" y="18" font-size="14" fill="#ffffff">★</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="466" y1="37" x2="486" y2="37" stroke="#555555" stroke-width="2"/>
+  <polygon points="486,33 494,37 486,41" fill="#555555"/>
+
+  <!-- Box 4: Gap Query -->
+  <rect x="494" y="15" width="130" height="44" rx="4" fill="#56B4E9"/>
+  <text x="559" y="33" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Gap</text>
+  <text x="559" y="50" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Query</text>
+
+  <!-- Connector from Row 1 end down to Row 2 start -->
+  <line x1="624" y1="37" x2="640" y2="37" stroke="#555555" stroke-width="2"/>
+  <line x1="640" y1="37" x2="640" y2="115" stroke="#555555" stroke-width="2"/>
+  <line x1="640" y1="115" x2="10" y2="115" stroke="#555555" stroke-width="2"/>
+  <line x1="10" y1="115" x2="10" y2="107" stroke="#555555" stroke-width="2"/>
+  <polygon points="6,107 10,99 14,107" fill="#555555"/>
+
+  <!-- ── ROW 2 ── -->
+
+  <!-- Box 5: Briefing Doc -->
+  <rect x="10" y="99" width="130" height="44" rx="4" fill="#009E73"/>
+  <text x="75" y="117" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Briefing</text>
+  <text x="75" y="134" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Doc</text>
+
+  <!-- Arrow 5→6 -->
+  <line x1="140" y1="121" x2="160" y2="121" stroke="#555555" stroke-width="2"/>
+  <polygon points="160,117 168,121 160,125" fill="#555555"/>
+
+  <!-- Box 6: Note → Source -->
+  <rect x="168" y="99" width="130" height="44" rx="4" fill="#009E73"/>
+  <text x="233" y="117" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Note →</text>
+  <text x="233" y="134" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Source</text>
+
+  <!-- Arrow 6→7 -->
+  <line x1="298" y1="121" x2="318" y2="121" stroke="#555555" stroke-width="2"/>
+  <polygon points="318,117 326,121 318,125" fill="#555555"/>
+
+  <!-- Box 7: Follow-up Queries -->
+  <rect x="326" y="99" width="140" height="44" rx="4" fill="#009E73"/>
+  <text x="396" y="117" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Follow-up</text>
+  <text x="396" y="134" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Queries</text>
+
+  <!-- Annotation label for Cross-Corpus Query -->
+  <text x="396" y="74" font-size="11" font-style="italic" fill="#c07d00" text-anchor="middle">highest-leverage step</text>
+
+  <!-- Caption band -->
+  <rect x="0" y="160" width="800" height="50" fill="#f5f5f5"/>
+  <text x="10" y="182" font-size="13" font-style="italic" fill="#333333">The leverage is in the cross-corpus query. Single-document queries use a fraction of the tool's capability.</text>
+</svg>

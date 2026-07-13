@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 212" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="212" fill="#ffffff"/>
+
+  <!-- Header row -->
+  <rect x="0" y="10" width="800" height="50" fill="#0072B2"/>
+  <text x="10" y="40" font-size="13" font-weight="bold" fill="#ffffff">Account type</text>
+  <text x="190" y="40" font-size="13" font-weight="bold" fill="#ffffff">Data used for training?</text>
+  <text x="390" y="40" font-size="13" font-weight="bold" fill="#ffffff">Enterprise ToS?</text>
+  <text x="530" y="40" font-size="13" font-weight="bold" fill="#ffffff">Admin visibility?</text>
+  <text x="670" y="40" font-size="13" font-weight="bold" fill="#ffffff">Best for</text>
+
+  <!-- Row 1 — Personal Gmail -->
+  <rect x="0" y="60" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="82" font-size="13" fill="#000000">Personal Gmail</text>
+  <!-- "Yes" in training column = #D55E00 tint background -->
+  <rect x="180" y="60" width="200" height="34" fill="#fde8df"/>
+  <text x="190" y="82" font-size="13" fill="#000000">Yes (consumer ToS)</text>
+  <text x="390" y="82" font-size="13" fill="#000000">No</text>
+  <text x="530" y="82" font-size="13" fill="#000000">No</text>
+  <text x="670" y="82" font-size="13" fill="#000000">Personal use;</text>
+  <text x="670" y="97" font-size="13" fill="#000000">non-sensitive material</text>
+
+  <!-- Row 2 — Google Workspace -->
+  <rect x="0" y="94" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="116" font-size="13" fill="#000000">Google Workspace</text>
+  <!-- "No" in training column = #009E73 tint background -->
+  <rect x="180" y="94" width="200" height="34" fill="#d6f0e8"/>
+  <text x="190" y="116" font-size="13" fill="#000000">No</text>
+  <!-- "Yes" in Enterprise ToS = #009E73 tint background -->
+  <rect x="380" y="94" width="140" height="34" fill="#d6f0e8"/>
+  <text x="390" y="116" font-size="13" fill="#000000">Yes</text>
+  <text x="530" y="116" font-size="13" fill="#000000">Yes (admin)</text>
+  <text x="670" y="116" font-size="13" fill="#000000">Professional use; client</text>
+  <text x="670" y="131" font-size="13" fill="#000000">or proprietary material</text>
+
+  <!-- Row 3 — Google Workspace for Education -->
+  <rect x="0" y="128" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="150" font-size="13" fill="#000000">Google Workspace</text>
+  <text x="10" y="165" font-size="13" fill="#000000">for Education</text>
+  <!-- "No" in training column = #009E73 tint background -->
+  <rect x="180" y="128" width="200" height="34" fill="#d6f0e8"/>
+  <text x="190" y="150" font-size="13" fill="#000000">No</text>
+  <!-- "Yes" in Enterprise ToS = #009E73 tint background -->
+  <rect x="380" y="128" width="140" height="34" fill="#d6f0e8"/>
+  <text x="390" y="150" font-size="13" fill="#000000">Yes (+ FERPA/COPPA)</text>
+  <text x="530" y="150" font-size="13" fill="#000000">Yes (admin +</text>
+  <text x="530" y="165" font-size="13" fill="#000000">institution)</text>
+  <text x="670" y="150" font-size="13" fill="#000000">Institutional/educational</text>
+  <text x="670" y="165" font-size="13" fill="#000000">use; student data</text>
+
+  <!-- Column dividers -->
+  <line x1="180" y1="10" x2="180" y2="162" stroke="#cccccc" stroke-width="1"/>
+  <line x1="380" y1="10" x2="380" y2="162" stroke="#cccccc" stroke-width="1"/>
+  <line x1="520" y1="10" x2="520" y2="162" stroke="#cccccc" stroke-width="1"/>
+  <line x1="660" y1="10" x2="660" y2="162" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Caption band -->
+  <rect x="0" y="162" width="800" height="40" fill="#f5f5f5"/>
+  <text x="10" y="187" font-size="13" font-style="italic" fill="#333333">Two sessions can look identical. The data-governance reality underneath is structurally different. Know which account you're on before you add sensitive material.</text>
+</svg>

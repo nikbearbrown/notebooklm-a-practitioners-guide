@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="220" fill="#FFFFFF"/>
+
+  <!-- Circle 1: Ask (#0072B2) -->
+  <circle cx="140" cy="90" r="48" fill="#0072B2"/>
+  <text x="140" y="85" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">1 · Ask</text>
+  <text x="140" y="103" text-anchor="middle" font-size="13" fill="#FFFFFF"> </text>
+
+  <!-- Label below Circle 1 -->
+  <text x="140" y="150" text-anchor="middle" font-size="13" fill="#000000">Ask a specific factual</text>
+  <text x="140" y="166" text-anchor="middle" font-size="13" fill="#000000">question from a</text>
+  <text x="140" y="182" text-anchor="middle" font-size="13" fill="#000000">known passage</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="190" y1="90" x2="288" y2="90" stroke="#E69F00" stroke-width="3"/>
+  <polygon points="288,84 302,90 288,96" fill="#E69F00"/>
+
+  <!-- Circle 2: Click (#56B4E9) -->
+  <circle cx="352" cy="90" r="48" fill="#56B4E9"/>
+  <text x="352" y="85" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">2 · Click</text>
+  <text x="352" y="103" text-anchor="middle" font-size="13" fill="#FFFFFF"> </text>
+
+  <!-- Label below Circle 2 -->
+  <text x="352" y="150" text-anchor="middle" font-size="13" fill="#000000">Click the citation chip</text>
+  <text x="352" y="166" text-anchor="middle" font-size="13" fill="#000000">in the response</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="402" y1="90" x2="500" y2="90" stroke="#E69F00" stroke-width="3"/>
+  <polygon points="500,84 514,90 500,96" fill="#E69F00"/>
+
+  <!-- Circle 3: Confirm (#009E73) -->
+  <circle cx="564" cy="90" r="48" fill="#009E73"/>
+  <text x="564" y="85" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">3 · Confirm</text>
+  <text x="564" y="103" text-anchor="middle" font-size="13" fill="#FFFFFF"> </text>
+
+  <!-- Label below Circle 3 -->
+  <text x="564" y="150" text-anchor="middle" font-size="13" fill="#000000">Confirm the highlighted</text>
+  <text x="564" y="166" text-anchor="middle" font-size="13" fill="#000000">passage matches</text>
+
+  <!-- Failure annotation -->
+  <text x="690" y="90" text-anchor="middle" font-size="13" fill="#D55E00" font-style="italic">If it fails →</text>
+  <text x="690" y="106" text-anchor="middle" font-size="13" fill="#D55E00" font-style="italic">source did not</text>
+  <text x="690" y="122" text-anchor="middle" font-size="13" fill="#D55E00" font-style="italic">ingest → fix the</text>
+  <text x="690" y="138" text-anchor="middle" font-size="13" fill="#D55E00" font-style="italic">file format</text>
+
+  <!-- Caption band -->
+  <rect x="0" y="175" width="800" height="45" fill="#f5f5f5"/>
+  <text x="400" y="201" text-anchor="middle" font-size="13" font-style="italic" fill="#000000">If Step 3 fails, the source did not ingest. Find the file format problem before you trust the output.</text>
+</svg>

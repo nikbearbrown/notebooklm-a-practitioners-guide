@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="280" fill="#ffffff"/>
+
+  <!-- Header row — three columns: Feature, Free, Plus -->
+  <!-- Feature header -->
+  <rect x="0" y="10" width="440" height="50" fill="#0072B2"/>
+  <text x="10" y="40" font-size="13" font-weight="bold" fill="#ffffff">Feature</text>
+  <!-- Free header -->
+  <rect x="440" y="10" width="180" height="50" fill="#56B4E9"/>
+  <text x="530" y="40" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Free</text>
+  <!-- Plus header -->
+  <rect x="620" y="10" width="180" height="50" fill="#009E73"/>
+  <text x="710" y="40" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Plus</text>
+
+  <!-- Row 1 — Sources per notebook -->
+  <rect x="0" y="60" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="82" font-size="13" fill="#000000">Sources per notebook</text>
+  <text x="530" y="82" font-size="13" fill="#000000" text-anchor="middle">50</text>
+  <text x="710" y="82" font-size="13" fill="#000000" text-anchor="middle">300</text>
+
+  <!-- Row 2 — Audio Overviews -->
+  <rect x="0" y="94" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="116" font-size="13" fill="#000000">Audio Overviews</text>
+  <text x="530" y="116" font-size="13" fill="#000000" text-anchor="middle">3 per day</text>
+  <text x="710" y="116" font-size="13" fill="#000000" text-anchor="middle">Unlimited</text>
+
+  <!-- Row 3 — Custom instructions -->
+  <rect x="0" y="128" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="150" font-size="13" fill="#000000">Custom instructions</text>
+  <text x="530" y="150" font-size="13" fill="#000000" text-anchor="middle">Not available</text>
+  <text x="710" y="150" font-size="13" fill="#000000" text-anchor="middle">Available</text>
+
+  <!-- Row 4 — Notebook analytics -->
+  <rect x="0" y="162" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="184" font-size="13" fill="#000000">Notebook analytics</text>
+  <text x="530" y="184" font-size="13" fill="#000000" text-anchor="middle">Not available</text>
+  <text x="710" y="184" font-size="13" fill="#000000" text-anchor="middle">Available</text>
+
+  <!-- Row 5 — Priority access -->
+  <rect x="0" y="196" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="218" font-size="13" fill="#000000">Priority access</text>
+  <text x="530" y="218" font-size="13" fill="#000000" text-anchor="middle">Standard</text>
+  <text x="710" y="218" font-size="13" fill="#000000" text-anchor="middle">Priority during high traffic</text>
+
+  <!-- Column dividers -->
+  <line x1="440" y1="10" x2="440" y2="230" stroke="#cccccc" stroke-width="1"/>
+  <line x1="620" y1="10" x2="620" y2="230" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Caption band -->
+  <rect x="0" y="230" width="800" height="40" fill="#f5f5f5"/>
+  <text x="10" y="255" font-size="13" font-style="italic" fill="#333333">The free tier is sufficient for most use cases. Upgrade when you hit the 50-source cap or need custom instructions for a recurring workflow.</text>
+</svg>

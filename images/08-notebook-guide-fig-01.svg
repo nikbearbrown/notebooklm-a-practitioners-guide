@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="280" fill="#FFFFFF"/>
+
+  <!-- "Start here →" label -->
+  <text x="14" y="78" font-size="13" font-weight="bold" fill="#000000">Start here →</text>
+
+  <!-- Box 1: Suggested Question (#0072B2) -->
+  <rect x="90" y="54" width="95" height="58" rx="5" fill="#0072B2"/>
+  <text x="137" y="77" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">Suggested</text>
+  <text x="137" y="93" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">Question</text>
+  <text x="137" y="107" text-anchor="middle" font-size="11" fill="#CCDDFF">(Notebook Guide)</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="185" y1="83" x2="208" y2="83" stroke="#E69F00" stroke-width="2.5"/>
+  <polygon points="208,78 220,83 208,88" fill="#E69F00"/>
+
+  <!-- Box 2: Answer + Citations (#f5f5f5) -->
+  <rect x="220" y="54" width="95" height="58" rx="5" fill="#f5f5f5" stroke="#cccccc" stroke-width="1"/>
+  <text x="267" y="77" text-anchor="middle" font-size="13" fill="#000000">Answer +</text>
+  <text x="267" y="93" text-anchor="middle" font-size="13" fill="#000000">Citations</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="315" y1="83" x2="338" y2="83" stroke="#E69F00" stroke-width="2.5"/>
+  <polygon points="338,78 350,83 338,88" fill="#E69F00"/>
+
+  <!-- Box 3: Follow-up Question (#56B4E9) -->
+  <rect x="350" y="54" width="95" height="58" rx="5" fill="#56B4E9"/>
+  <text x="397" y="77" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">Follow-up</text>
+  <text x="397" y="93" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">Question</text>
+  <text x="397" y="107" text-anchor="middle" font-size="11" fill="#ddf">(from answer)</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="445" y1="83" x2="468" y2="83" stroke="#E69F00" stroke-width="2.5"/>
+  <polygon points="468,78 480,83 468,88" fill="#E69F00"/>
+
+  <!-- Box 4: Answer + Citations (#f5f5f5) -->
+  <rect x="480" y="54" width="95" height="58" rx="5" fill="#f5f5f5" stroke="#cccccc" stroke-width="1"/>
+  <text x="527" y="77" text-anchor="middle" font-size="13" fill="#000000">Answer +</text>
+  <text x="527" y="93" text-anchor="middle" font-size="13" fill="#000000">Citations</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="575" y1="83" x2="598" y2="83" stroke="#E69F00" stroke-width="2.5"/>
+  <polygon points="598,78 610,83 598,88" fill="#E69F00"/>
+
+  <!-- Box 5: Third Question (#009E73) -->
+  <rect x="610" y="54" width="95" height="58" rx="5" fill="#009E73"/>
+  <text x="657" y="77" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">Third</text>
+  <text x="657" y="93" text-anchor="middle" font-size="13" fill="#FFFFFF" font-weight="bold">Question</text>
+
+  <!-- Arrow 5→6 (goes down then to box 6) -->
+  <line x1="657" y1="112" x2="657" y2="145" stroke="#E69F00" stroke-width="2.5"/>
+  <polygon points="651,145 657,157 663,145" fill="#E69F00"/>
+
+  <!-- Box 6: Answer + Citations (final, #f5f5f5) -->
+  <rect x="610" y="157" width="95" height="58" rx="5" fill="#f5f5f5" stroke="#cccccc" stroke-width="1"/>
+  <text x="657" y="180" text-anchor="middle" font-size="13" fill="#000000">Answer +</text>
+  <text x="657" y="196" text-anchor="middle" font-size="13" fill="#000000">Citations</text>
+
+  <!-- Hop labels -->
+  <text x="137" y="130" text-anchor="middle" font-size="13" fill="#0072B2">Hop 1</text>
+  <text x="397" y="130" text-anchor="middle" font-size="13" fill="#56B4E9">Hop 2</text>
+  <text x="657" y="232" text-anchor="middle" font-size="13" fill="#009E73">Hop 3</text>
+
+  <!-- Caption band -->
+  <rect x="0" y="242" width="800" height="38" fill="#f5f5f5"/>
+  <text x="400" y="265" text-anchor="middle" font-size="13" font-style="italic" fill="#000000">Three hops from a suggested question usually surfaces the core structure of the corpus.</text>
+</svg>

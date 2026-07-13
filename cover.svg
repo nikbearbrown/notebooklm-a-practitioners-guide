@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1600 2400" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1600" height="2400" fill="#0072B2"/>
+  <rect x="0" y="0" width="1600" height="8" fill="#E69F00"/>
+  <rect x="0" y="2392" width="1600" height="8" fill="#E69F00"/>
+  <rect x="60" y="320" width="1480" height="4" fill="#56B4E9" opacity="0.5"/>
+  <text x="800" y="240" text-anchor="middle" fill="#FFFFFF" font-size="96" font-weight="bold">NotebookLM</text>
+  <text x="800" y="360" text-anchor="middle" fill="#E69F00" font-size="52">A Practitioner's Guide</text>
+  <text x="800" y="460" text-anchor="middle" fill="#56B4E9" font-size="38">Features, Workflows, and Limits</text>
+  <!-- Architecture diagram -->
+  <rect x="200" y="560" width="360" height="80" rx="8" fill="#009E73"/>
+  <text x="380" y="608" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">Your Sources</text>
+  <polygon points="580,600 640,580 640,620" fill="#E69F00"/>
+  <rect x="660" y="560" width="280" height="80" rx="8" fill="#56B4E9"/>
+  <text x="800" y="608" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">Retrieval</text>
+  <polygon points="960,600 1020,580 1020,620" fill="#E69F00"/>
+  <rect x="1040" y="560" width="360" height="80" rx="8" fill="#009E73"/>
+  <text x="1220" y="608" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">Grounded Answer</text>
+  <path d="M 1220 640 Q 1220 740 800 740 Q 380 740 380 640" stroke="#E69F00" stroke-width="3" fill="none" stroke-dasharray="8,4"/>
+  <text x="800" y="800" text-anchor="middle" fill="#E69F00" font-size="22" font-style="italic">Every answer cites the passage. That's the whole product.</text>
+  <!-- DRAFT notice -->
+  <rect x="580" y="2100" width="440" height="60" rx="6" fill="#D55E00" opacity="0.85"/>
+  <text x="800" y="2140" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">DRAFT — DO NOT PUBLISH</text>
+  <text x="800" y="2280" text-anchor="middle" fill="#FFFFFF" font-size="32">Nik Bear Brown</text>
+  <text x="800" y="2340" text-anchor="middle" fill="#56B4E9" font-size="26">Humanitarians AI Incorporated · 2026</text>
+</svg>

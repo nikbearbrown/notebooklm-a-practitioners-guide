@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="300" fill="#FFFFFF"/>
+
+  <!-- Panel 1: Orientation -->
+  <rect x="20" y="20" width="235" height="44" rx="4" fill="#0072B2"/>
+  <text x="137" y="47" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">1 · Orientation</text>
+
+  <rect x="20" y="64" width="235" height="190" rx="0 0 4 4" fill="#f5f5f5"/>
+  <text x="137" y="92" text-anchor="middle" font-size="13" fill="#000000">Open the map first.</text>
+  <text x="137" y="112" text-anchor="middle" font-size="13" fill="#000000">Find the 3–5 most</text>
+  <text x="137" y="132" text-anchor="middle" font-size="13" fill="#000000">connected nodes.</text>
+  <text x="137" y="158" text-anchor="middle" font-size="13" fill="#000000">Read those source</text>
+  <text x="137" y="178" text-anchor="middle" font-size="13" fill="#000000">sections first.</text>
+
+  <!-- Panel 2: Gap Check -->
+  <rect x="282" y="20" width="235" height="44" rx="4" fill="#E69F00"/>
+  <text x="399" y="47" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">2 · Gap Check</text>
+
+  <rect x="282" y="64" width="235" height="190" fill="#f5f5f5"/>
+  <text x="399" y="92" text-anchor="middle" font-size="13" fill="#000000">Scan for concepts you</text>
+  <text x="399" y="112" text-anchor="middle" font-size="13" fill="#000000">expected to find.</text>
+  <text x="399" y="138" text-anchor="middle" font-size="13" fill="#000000">Absent nodes reveal</text>
+  <text x="399" y="158" text-anchor="middle" font-size="13" fill="#000000">what your corpus</text>
+  <text x="399" y="178" text-anchor="middle" font-size="13" fill="#000000">is missing.</text>
+
+  <!-- Panel 3: Navigation -->
+  <rect x="544" y="20" width="235" height="44" rx="4" fill="#009E73"/>
+  <text x="661" y="47" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">3 · Navigation</text>
+
+  <rect x="544" y="64" width="235" height="190" fill="#f5f5f5"/>
+  <text x="661" y="92" text-anchor="middle" font-size="13" fill="#000000">Click any node to</text>
+  <text x="661" y="112" text-anchor="middle" font-size="13" fill="#000000">jump to the source</text>
+  <text x="661" y="132" text-anchor="middle" font-size="13" fill="#000000">passage where that</text>
+  <text x="661" y="152" text-anchor="middle" font-size="13" fill="#000000">concept appears.</text>
+
+  <!-- Caption band -->
+  <rect x="0" y="258" width="800" height="42" fill="#f5f5f5"/>
+  <text x="400" y="283" text-anchor="middle" font-size="13" font-style="italic" fill="#000000">The map is a table of contents for your corpus, not a summary of its argument.</text>
+</svg>

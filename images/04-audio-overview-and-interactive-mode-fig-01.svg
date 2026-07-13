@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="300" fill="#FFFFFF"/>
+
+  <!-- Left column header -->
+  <rect x="20" y="20" width="360" height="40" rx="4" fill="#0072B2"/>
+  <text x="200" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Audio Overview</text>
+
+  <!-- Right column header -->
+  <rect x="420" y="20" width="360" height="40" rx="4" fill="#009E73"/>
+  <text x="600" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Interactive Mode</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="20" x2="400" y2="260" stroke="#E69F00" stroke-width="3"/>
+
+  <!-- Row 1: What you do -->
+  <rect x="20" y="70" width="360" height="42" fill="#f5f5f5"/>
+  <text x="30" y="88" font-size="13" font-weight="bold" fill="#000000">What you do</text>
+  <text x="30" y="104" font-size="13" fill="#000000">Listen</text>
+  <rect x="420" y="70" width="360" height="42" fill="#f5f5f5"/>
+  <text x="430" y="88" font-size="13" font-weight="bold" fill="#000000">What you do</text>
+  <text x="430" y="104" font-size="13" fill="#000000">Listen + ask questions</text>
+
+  <!-- Row 2: What the AI does -->
+  <rect x="20" y="112" width="360" height="52" fill="#ffffff"/>
+  <text x="30" y="130" font-size="13" font-weight="bold" fill="#000000">What the AI does</text>
+  <text x="30" y="146" font-size="13" fill="#000000">Synthesizes all sources into</text>
+  <text x="30" y="162" font-size="13" fill="#000000">conversation</text>
+  <rect x="420" y="112" width="360" height="52" fill="#ffffff"/>
+  <text x="430" y="130" font-size="13" font-weight="bold" fill="#000000">What the AI does</text>
+  <text x="430" y="146" font-size="13" fill="#000000">Answers from sources,</text>
+  <text x="430" y="162" font-size="13" fill="#000000">mid-audio</text>
+
+  <!-- Row 3: Citations -->
+  <rect x="20" y="164" width="360" height="42" fill="#f5f5f5"/>
+  <text x="30" y="182" font-size="13" font-weight="bold" fill="#000000">Citations</text>
+  <text x="30" y="198" font-size="13" fill="#000000">Available in transcript</text>
+  <rect x="420" y="164" width="360" height="42" fill="#f5f5f5"/>
+  <text x="430" y="182" font-size="13" font-weight="bold" fill="#000000">Citations</text>
+  <text x="430" y="198" font-size="13" fill="#000000">Inline with each answer</text>
+
+  <!-- Row 4: Best for -->
+  <rect x="20" y="206" width="360" height="52" fill="#ffffff"/>
+  <text x="30" y="224" font-size="13" font-weight="bold" fill="#000000">Best for</text>
+  <text x="30" y="240" font-size="13" fill="#000000">First pass, commute,</text>
+  <text x="30" y="256" font-size="13" fill="#000000">passive processing</text>
+  <rect x="420" y="206" width="360" height="52" fill="#ffffff"/>
+  <text x="430" y="224" font-size="13" font-weight="bold" fill="#000000">Best for</text>
+  <text x="430" y="240" font-size="13" fill="#000000">Active engagement,</text>
+  <text x="430" y="256" font-size="13" fill="#000000">specific questions</text>
+
+  <!-- Caption band -->
+  <rect x="0" y="258" width="800" height="42" fill="#f5f5f5"/>
+  <text x="400" y="283" text-anchor="middle" font-size="13" font-style="italic" fill="#000000">The difference is cognitive mode. Audio is receiving. Interactive is producing.</text>
+</svg>

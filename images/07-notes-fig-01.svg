@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="300" fill="#FFFFFF"/>
+
+  <!-- Box 1: Write (top-left) -->
+  <rect x="50" y="30" width="150" height="80" rx="6" fill="#0072B2"/>
+  <text x="125" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">1 · Write</text>
+  <text x="125" y="82" text-anchor="middle" font-size="13" fill="#FFFFFF">Capture observation</text>
+  <text x="125" y="98" text-anchor="middle" font-size="13" fill="#FFFFFF">as a Note</text>
+
+  <!-- Arrow 1→2 (right, top) -->
+  <line x1="200" y1="70" x2="560" y2="70" stroke="#000000" stroke-width="2"/>
+  <path d="M 380 50 Q 400 30 420 50" fill="none" stroke="#000000" stroke-width="0"/>
+  <polygon points="560,64 574,70 560,76" fill="#000000"/>
+
+  <!-- Box 2: Promote (top-right) -->
+  <rect x="574" y="30" width="160" height="80" rx="6" fill="#56B4E9"/>
+  <text x="654" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">2 · Promote</text>
+  <text x="654" y="82" text-anchor="middle" font-size="13" fill="#FFFFFF">Promote Note</text>
+  <text x="654" y="98" text-anchor="middle" font-size="13" fill="#FFFFFF">to source</text>
+
+  <!-- Arrow 2→3 (down, right side) -->
+  <line x1="654" y1="110" x2="654" y2="165" stroke="#000000" stroke-width="2"/>
+  <polygon points="648,165 654,179 660,165" fill="#000000"/>
+
+  <!-- Box 3: Generate (bottom-right) -->
+  <rect x="574" y="179" width="160" height="80" rx="6" fill="#009E73"/>
+  <text x="654" y="211" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">3 · Generate</text>
+  <text x="654" y="231" text-anchor="middle" font-size="13" fill="#FFFFFF">Output draws from</text>
+  <text x="654" y="247" text-anchor="middle" font-size="13" fill="#FFFFFF">docs AND your Note</text>
+
+  <!-- Arrow 3→4 (left, bottom) -->
+  <line x1="574" y1="219" x2="214" y2="219" stroke="#000000" stroke-width="2"/>
+  <polygon points="214,213 200,219 214,225" fill="#000000"/>
+
+  <!-- Box 4: Observe (bottom-left) -->
+  <rect x="50" y="179" width="150" height="80" rx="6" fill="#E69F00"/>
+  <text x="125" y="211" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">4 · Observe</text>
+  <text x="125" y="231" text-anchor="middle" font-size="13" fill="#FFFFFF">See what changed;</text>
+  <text x="125" y="247" text-anchor="middle" font-size="13" fill="#FFFFFF">update the Note</text>
+
+  <!-- Arrow 4→1 (up, left side) -->
+  <line x1="125" y1="179" x2="125" y2="116" stroke="#000000" stroke-width="2"/>
+  <polygon points="119,116 125,110 131,116" fill="#000000"/>
+
+  <!-- Center label -->
+  <text x="400" y="152" text-anchor="middle" font-size="13" font-style="italic" fill="#000000">Notebook compounds over time</text>
+
+  <!-- Caption band -->
+  <rect x="0" y="263" width="800" height="37" fill="#f5f5f5"/>
+  <text x="400" y="286" text-anchor="middle" font-size="13" font-style="italic" fill="#000000">The loop makes the notebook more accurate about your specific problem over time.</text>
+</svg>

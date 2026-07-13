@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 314" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="314" fill="#ffffff"/>
+
+  <!-- Header row -->
+  <rect x="0" y="10" width="800" height="50" fill="#0072B2"/>
+  <text x="10" y="40" font-size="13" font-weight="bold" fill="#ffffff">Output type</text>
+  <text x="120" y="40" font-size="13" font-weight="bold" fill="#ffffff">What it produces</text>
+  <text x="290" y="40" font-size="13" font-weight="bold" fill="#ffffff">Cognitive work it does</text>
+  <text x="460" y="40" font-size="13" font-weight="bold" fill="#ffffff">What you still do</text>
+  <text x="620" y="40" font-size="13" font-weight="bold" fill="#ffffff">Best single use case</text>
+
+  <!-- Row 1 — Briefing Doc -->
+  <rect x="0" y="60" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="82" font-size="13" fill="#000000">Briefing Doc</text>
+  <text x="120" y="82" font-size="13" fill="#000000">Structured summary with</text>
+  <text x="290" y="82" font-size="13" fill="#000000">Synthesizes across all sources</text>
+  <text x="460" y="82" font-size="13" fill="#000000">Verify citations; adjust emphasis</text>
+  <text x="620" y="82" font-size="13" fill="#000000">Get up to speed on unfamiliar</text>
+
+  <!-- Row 1 continuation lines -->
+  <text x="120" y="97" font-size="13" fill="#000000">headers and inline citations</text>
+  <text x="620" y="97" font-size="13" fill="#000000">corpus fast</text>
+
+  <!-- Row 2 — Study Guide -->
+  <rect x="0" y="94" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="116" font-size="13" fill="#000000">Study Guide</text>
+  <text x="120" y="116" font-size="13" fill="#000000">Topic-by-topic coverage</text>
+  <text x="290" y="116" font-size="13" fill="#000000">Organizes corpus by concept</text>
+  <text x="460" y="116" font-size="13" fill="#000000">Confirm coverage of your</text>
+  <text x="620" y="116" font-size="13" fill="#000000">Comprehensive overview of a</text>
+  <text x="120" y="131" font-size="13" fill="#000000">with key terms</text>
+  <text x="460" y="131" font-size="13" fill="#000000">specific topics</text>
+  <text x="620" y="131" font-size="13" fill="#000000">topic you must learn</text>
+
+  <!-- Row 3 — FAQ -->
+  <rect x="0" y="128" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="150" font-size="13" fill="#000000">FAQ</text>
+  <text x="120" y="150" font-size="13" fill="#000000">Q&amp;A pairs drawn from what</text>
+  <text x="290" y="150" font-size="13" fill="#000000">Anticipates likely questions</text>
+  <text x="460" y="150" font-size="13" fill="#000000">Add questions your audience</text>
+  <text x="620" y="150" font-size="13" fill="#000000">Prep for a presentation</text>
+  <text x="120" y="165" font-size="13" fill="#000000">sources address</text>
+  <text x="460" y="165" font-size="13" fill="#000000">will ask that aren't covered</text>
+  <text x="620" y="165" font-size="13" fill="#000000">or briefing</text>
+
+  <!-- Row 4 — Timeline -->
+  <rect x="0" y="162" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="184" font-size="13" fill="#000000">Timeline</text>
+  <text x="120" y="184" font-size="13" fill="#000000">Chronological events extracted</text>
+  <text x="290" y="184" font-size="13" fill="#000000">Sequences events across</text>
+  <text x="460" y="184" font-size="13" fill="#000000">Verify dates; add context</text>
+  <text x="620" y="184" font-size="13" fill="#000000">Historical documents, case</text>
+  <text x="120" y="199" font-size="13" fill="#000000">from sources</text>
+  <text x="290" y="199" font-size="13" fill="#000000">documents</text>
+  <text x="620" y="199" font-size="13" fill="#000000">files, post-mortems</text>
+
+  <!-- Row 5 — Outline -->
+  <rect x="0" y="196" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="218" font-size="13" fill="#000000">Outline</text>
+  <text x="120" y="218" font-size="13" fill="#000000">Hierarchical structure of</text>
+  <text x="290" y="218" font-size="13" fill="#000000">Maps the argument or content</text>
+  <text x="460" y="218" font-size="13" fill="#000000">Reorder for your audience;</text>
+  <text x="620" y="218" font-size="13" fill="#000000">Before writing a document</text>
+  <text x="120" y="233" font-size="13" fill="#000000">corpus content</text>
+  <text x="290" y="233" font-size="13" fill="#000000">hierarchy</text>
+  <text x="460" y="233" font-size="13" fill="#000000">fill gaps</text>
+  <text x="620" y="233" font-size="13" fill="#000000">that responds to the corpus</text>
+
+  <!-- Row 6 — Table of Contents -->
+  <rect x="0" y="230" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="252" font-size="13" fill="#000000">Table of Contents</text>
+  <text x="120" y="252" font-size="13" fill="#000000">Navigational index of sources</text>
+  <text x="290" y="252" font-size="13" fill="#000000">Creates entry points into</text>
+  <text x="460" y="252" font-size="13" fill="#000000">Use as navigation, not reading</text>
+  <text x="620" y="252" font-size="13" fill="#000000">Large corpora where you need</text>
+  <text x="290" y="267" font-size="13" fill="#000000">the corpus</text>
+  <text x="620" y="267" font-size="13" fill="#000000">to find sections fast</text>
+
+  <!-- Column dividers -->
+  <line x1="110" y1="10" x2="110" y2="264" stroke="#cccccc" stroke-width="1"/>
+  <line x1="280" y1="10" x2="280" y2="264" stroke="#cccccc" stroke-width="1"/>
+  <line x1="450" y1="10" x2="450" y2="264" stroke="#cccccc" stroke-width="1"/>
+  <line x1="610" y1="10" x2="610" y2="264" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Caption band -->
+  <rect x="0" y="264" width="800" height="40" fill="#f5f5f5"/>
+  <text x="10" y="289" font-size="13" font-style="italic" fill="#333333">These are not format choices. Each output performs a different cognitive operation. Choose based on what work you need done, not what the result will look like.</text>
+</svg>

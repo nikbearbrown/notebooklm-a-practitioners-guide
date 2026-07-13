@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 314" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="314" fill="#ffffff"/>
+
+  <!-- Header row -->
+  <rect x="0" y="10" width="800" height="50" fill="#0072B2"/>
+  <text x="10" y="40" font-size="13" font-weight="bold" fill="#ffffff">Limit</text>
+  <text x="140" y="40" font-size="13" font-weight="bold" fill="#ffffff">What failure looks like</text>
+  <text x="370" y="40" font-size="13" font-weight="bold" fill="#ffffff">Detection method</text>
+  <text x="570" y="40" font-size="13" font-weight="bold" fill="#ffffff">Mitigation</text>
+
+  <!-- Row 1 — Hallucination (high-risk: #fff3e0 tint) -->
+  <rect x="0" y="60" width="800" height="34" fill="#fff3e0"/>
+  <text x="10" y="82" font-size="13" fill="#000000">Hallucination</text>
+  <text x="140" y="82" font-size="13" fill="#000000">Fluent, plausible claim that</text>
+  <text x="370" y="82" font-size="13" fill="#000000">Click the citation; read</text>
+  <text x="570" y="82" font-size="13" fill="#000000">Verify any claim you intend to</text>
+  <text x="140" y="97" font-size="13" fill="#000000">doesn't match the source</text>
+  <text x="370" y="97" font-size="13" fill="#000000">the passage</text>
+  <text x="570" y="97" font-size="13" fill="#000000">use; never trust without clicking</text>
+
+  <!-- Row 2 — Scanned PDF -->
+  <rect x="0" y="94" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="116" font-size="13" fill="#000000">Scanned PDF</text>
+  <text x="140" y="116" font-size="13" fill="#000000">Generic-sounding output;</text>
+  <text x="370" y="116" font-size="13" fill="#000000">Ask a specific question from</text>
+  <text x="570" y="116" font-size="13" fill="#000000">Use text-layer PDFs; OCR</text>
+  <text x="140" y="131" font-size="13" fill="#000000">citations don't point to that file</text>
+  <text x="370" y="131" font-size="13" fill="#000000">a known passage in that file</text>
+  <text x="570" y="131" font-size="13" fill="#000000">before uploading</text>
+
+  <!-- Row 3 — Embedded images / charts -->
+  <rect x="0" y="128" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="150" font-size="13" fill="#000000">Embedded images /</text>
+  <text x="10" y="165" font-size="13" fill="#000000">charts</text>
+  <text x="140" y="150" font-size="13" fill="#000000">Caption is cited; chart data</text>
+  <text x="370" y="150" font-size="13" fill="#000000">Ask a specific question about</text>
+  <text x="570" y="150" font-size="13" fill="#000000">Extract key data as text;</text>
+  <text x="140" y="165" font-size="13" fill="#000000">is not</text>
+  <text x="370" y="165" font-size="13" fill="#000000">a figure's data</text>
+  <text x="570" y="165" font-size="13" fill="#000000">add as a Note</text>
+
+  <!-- Row 4 — Real-time information gap -->
+  <rect x="0" y="162" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="184" font-size="13" fill="#000000">Real-time information</text>
+  <text x="10" y="199" font-size="13" fill="#000000">gap</text>
+  <text x="140" y="184" font-size="13" fill="#000000">Confident answer about a</text>
+  <text x="370" y="184" font-size="13" fill="#000000">Ask about a recent event you</text>
+  <text x="570" y="184" font-size="13" fill="#000000">Upload current documents;</text>
+  <text x="140" y="199" font-size="13" fill="#000000">post-upload event</text>
+  <text x="370" y="199" font-size="13" fill="#000000">know occurred after upload</text>
+  <text x="570" y="199" font-size="13" fill="#000000">verify date-sensitive claims</text>
+
+  <!-- Row 5 — Large file truncation -->
+  <rect x="0" y="196" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="218" font-size="13" fill="#000000">Large file truncation</text>
+  <text x="140" y="218" font-size="13" fill="#000000">Queries about the latter half</text>
+  <text x="370" y="218" font-size="13" fill="#000000">Ask about content from the</text>
+  <text x="570" y="218" font-size="13" fill="#000000">Split files before uploading;</text>
+  <text x="140" y="233" font-size="13" fill="#000000">of a long document return nothing</text>
+  <text x="370" y="233" font-size="13" fill="#000000">end of a large file</text>
+  <text x="570" y="233" font-size="13" fill="#000000">verify large-file ingestion</text>
+
+  <!-- Row 6 — Multi-source contradiction (high-risk: #fff3e0 tint) -->
+  <rect x="0" y="230" width="800" height="34" fill="#fff3e0"/>
+  <text x="10" y="252" font-size="13" fill="#000000">Multi-source</text>
+  <text x="10" y="267" font-size="13" fill="#000000">contradiction</text>
+  <text x="140" y="252" font-size="13" fill="#000000">Synthetic "average" claim rather</text>
+  <text x="370" y="252" font-size="13" fill="#000000">Ask explicitly: "Do any sources</text>
+  <text x="570" y="252" font-size="13" fill="#000000">Probe contradictions directly;</text>
+  <text x="140" y="267" font-size="13" fill="#000000">than flagged disagreement</text>
+  <text x="370" y="267" font-size="13" fill="#000000">disagree about X?"</text>
+  <text x="570" y="267" font-size="13" fill="#000000">don't assume model surfaces them</text>
+
+  <!-- Column dividers -->
+  <line x1="130" y1="10" x2="130" y2="264" stroke="#cccccc" stroke-width="1"/>
+  <line x1="360" y1="10" x2="360" y2="264" stroke="#cccccc" stroke-width="1"/>
+  <line x1="560" y1="10" x2="560" y2="264" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Caption band -->
+  <rect x="0" y="264" width="800" height="40" fill="#f5f5f5"/>
+  <text x="10" y="289" font-size="13" font-style="italic" fill="#333333">These limits are specific and diagnosable. Learn the signature of each before you depend on the output.</text>
+</svg>

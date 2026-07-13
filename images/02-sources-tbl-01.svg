@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 416" font-family="Arial, Helvetica, sans-serif">
+  <!-- White background -->
+  <rect width="800" height="416" fill="#ffffff"/>
+
+  <!-- Header row -->
+  <rect x="0" y="10" width="800" height="50" fill="#0072B2"/>
+  <text x="10" y="40" font-size="13" font-weight="bold" fill="#ffffff">Source type</text>
+  <text x="170" y="40" font-size="13" font-weight="bold" fill="#ffffff">How to add</text>
+  <text x="380" y="40" font-size="13" font-weight="bold" fill="#ffffff">Character limit</text>
+  <text x="560" y="40" font-size="13" font-weight="bold" fill="#ffffff">Silent-failure risk</text>
+
+  <!-- Row 1 — PDF (text-layer) -->
+  <rect x="0" y="60" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="82" font-size="13" fill="#000000">PDF (text-layer)</text>
+  <text x="170" y="82" font-size="13" fill="#000000">Upload file or Google Drive</text>
+  <text x="380" y="82" font-size="13" fill="#000000">500K words</text>
+  <text x="560" y="82" font-size="13" fill="#000000">Low — verify one citation</text>
+
+  <!-- Row 2 — PDF (scanned/image) -->
+  <rect x="0" y="94" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="109" font-size="13" fill="#000000">PDF (scanned/image)</text>
+  <text x="170" y="109" font-size="13" fill="#000000">Upload file</text>
+  <text x="380" y="109" font-size="13" fill="#000000">N/A — no text extracted</text>
+  <text x="560" y="109" font-size="13" fill="#000000">High — Sources panel accepts;</text>
+  <text x="560" y="124" font-size="13" fill="#000000">model gets nothing</text>
+
+  <!-- Row 3 — Google Doc -->
+  <rect x="0" y="128" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="150" font-size="13" fill="#000000">Google Doc</text>
+  <text x="170" y="150" font-size="13" fill="#000000">Paste link or Drive picker</text>
+  <text x="380" y="150" font-size="13" fill="#000000">500K words</text>
+  <text x="560" y="150" font-size="13" fill="#000000">Low</text>
+
+  <!-- Row 4 — Google Slides -->
+  <rect x="0" y="162" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="184" font-size="13" fill="#000000">Google Slides</text>
+  <text x="170" y="184" font-size="13" fill="#000000">Paste link or Drive picker</text>
+  <text x="380" y="184" font-size="13" fill="#000000">500K words</text>
+  <text x="560" y="184" font-size="13" fill="#000000">Medium — slide notes only;</text>
+  <text x="560" y="199" font-size="13" fill="#000000">embedded images not read</text>
+
+  <!-- Row 5 — Google Sheet -->
+  <rect x="0" y="196" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="218" font-size="13" fill="#000000">Google Sheet</text>
+  <text x="170" y="218" font-size="13" fill="#000000">Paste link or Drive picker</text>
+  <text x="380" y="218" font-size="13" fill="#000000">500K words</text>
+  <text x="560" y="218" font-size="13" fill="#000000">Medium — complex formulas</text>
+  <text x="560" y="233" font-size="13" fill="#000000">not interpreted</text>
+
+  <!-- Row 6 — Plain text / Markdown -->
+  <rect x="0" y="230" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="252" font-size="13" fill="#000000">Plain text / Markdown</text>
+  <text x="170" y="252" font-size="13" fill="#000000">Upload .txt or .md</text>
+  <text x="380" y="252" font-size="13" fill="#000000">500K words</text>
+  <text x="560" y="252" font-size="13" fill="#000000">Very low</text>
+
+  <!-- Row 7 — Audio file -->
+  <rect x="0" y="264" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="286" font-size="13" fill="#000000">Audio file</text>
+  <text x="170" y="286" font-size="13" fill="#000000">Upload .mp3/.wav/etc.</text>
+  <text x="380" y="286" font-size="13" fill="#000000">~8 hours</text>
+  <text x="560" y="286" font-size="13" fill="#000000">Low — transcription may miss</text>
+  <text x="560" y="301" font-size="13" fill="#000000">accents or jargon</text>
+
+  <!-- Row 8 — YouTube URL -->
+  <rect x="0" y="298" width="800" height="34" fill="#ffffff"/>
+  <text x="10" y="320" font-size="13" fill="#000000">YouTube URL</text>
+  <text x="170" y="320" font-size="13" fill="#000000">Paste URL</text>
+  <text x="380" y="320" font-size="13" fill="#000000">Full transcript</text>
+  <text x="560" y="320" font-size="13" fill="#000000">Medium — auto-captions may</text>
+  <text x="560" y="335" font-size="13" fill="#000000">have errors</text>
+
+  <!-- Row 9 — Website URL -->
+  <rect x="0" y="332" width="800" height="34" fill="#f5f5f5"/>
+  <text x="10" y="354" font-size="13" fill="#000000">Website URL</text>
+  <text x="170" y="354" font-size="13" fill="#000000">Paste URL</text>
+  <text x="380" y="354" font-size="13" fill="#000000">500K words</text>
+  <text x="560" y="354" font-size="13" fill="#000000">Medium — JS-rendered content</text>
+  <text x="560" y="369" font-size="13" fill="#000000">may not load</text>
+
+  <!-- Column dividers -->
+  <line x1="160" y1="10" x2="160" y2="366" stroke="#cccccc" stroke-width="1"/>
+  <line x1="370" y1="10" x2="370" y2="366" stroke="#cccccc" stroke-width="1"/>
+  <line x1="550" y1="10" x2="550" y2="366" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Caption band -->
+  <rect x="0" y="366" width="800" height="40" fill="#f5f5f5"/>
+  <text x="10" y="391" font-size="13" font-style="italic" fill="#333333">The Sources panel tells you a file was accepted. It does not tell you it was read. Run the three-step verification before you trust any output.</text>
+</svg>
