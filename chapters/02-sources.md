@@ -31,7 +31,7 @@ Each source type has a different ingestion path, different failure modes, and di
 
 <!-- → [TABLE: Source types — columns: Source type, How to add, Character limit, Silent-failure risk. Rows: PDF (text), PDF (scanned), Google Doc, Google Slides, Google Sheet, Plain text/Markdown, Audio file, YouTube URL, Website URL.] -->
 
-![Table of NotebookLM source types showing how to add each, character limits, and silent-failure risk for PDF text, PDF scanned, Google Docs, Slides, Sheets, plain text, audio, YouTube URLs, and website URLs](images/02-sources-tbl-01.svg)
+![Table of NotebookLM source types showing how to add each, character limits, and silent-failure risk for PDF text, PDF scanned, Google Docs, Slides, Sheets, plain text, audio, YouTube URLs, and website URLs](images/02-sources-tbl-01.png)
 *The Sources panel tells you a file was accepted. It does not tell you it was read. Run the three-step verification before you trust any output.*
 
 ---
@@ -78,7 +78,7 @@ Five failure modes account for most of the problems practitioners run into.
 
 <!-- → [FIGURE: Three-step ingestion verification sequence — Step 1: ask a specific factual question from a known passage; Step 2: click the citation chip; Step 3: confirm the highlighted passage matches. Caption: If Step 3 fails, the source did not ingest. Find the file format problem before you trust the output.] -->
 
-![Three-step verification sequence: Step 1 ask a specific factual question, Step 2 click the citation chip, Step 3 confirm the highlighted passage matches the claim](images/02-sources-fig-01.svg)
+![Three-step verification sequence: Step 1 ask a specific factual question, Step 2 click the citation chip, Step 3 confirm the highlighted passage matches the claim](images/02-sources-fig-01.png)
 *If Step 3 fails, the source did not ingest. Find the file format problem before you trust the output.*
 
 ---

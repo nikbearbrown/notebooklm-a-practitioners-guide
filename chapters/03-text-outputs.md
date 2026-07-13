@@ -99,7 +99,7 @@ Best single use case: large corpora where you need to find sections quickly. You
 
 <!-- → [TABLE: Text output comparison — columns: Output type, What it produces, Cognitive work it does, What you still do, Best single use case. Rows: Briefing Doc / Study Guide / FAQ / Timeline / Outline / Table of Contents.] -->
 
-![Table comparing six NotebookLM text outputs — Briefing Doc, Study Guide, FAQ, Timeline, Outline, Table of Contents — across what each produces, the cognitive work it does, what the user still does, and the best use case](images/03-text-outputs-tbl-01.svg)
+![Table comparing six NotebookLM text outputs — Briefing Doc, Study Guide, FAQ, Timeline, Outline, Table of Contents — across what each produces, the cognitive work it does, what the user still does, and the best use case](images/03-text-outputs-tbl-01.png)
 *These are not format choices. Each output performs a different cognitive operation. Choose based on what work you need done, not what the result will look like.*
 
 ---

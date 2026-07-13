@@ -44,7 +44,7 @@ That's it. From that point on, your Note is part of the corpus.
 
 <!-- → [FIGURE: Note-to-source loop — four stages: (1) you write an observation or framing as a Note; (2) you promote the Note to a source; (3) you generate an output — the model draws from original sources AND your Note; (4) you observe the output and update the Note. Caption: The loop makes the notebook more accurate about your specific problem over time.] -->
 
-![Four-stage Note-to-source feedback loop: write observation, promote to source, generate output grounded in documents and Note, observe and update the Note](images/07-notes-fig-01.svg)
+![Four-stage Note-to-source feedback loop: write observation, promote to source, generate output grounded in documents and Note, observe and update the Note](images/07-notes-fig-01.png)
 *The loop makes the notebook more accurate about your specific problem over time.*
 
 **Why this matters.** When you ask the model a question or generate an output, it retrieves from everything in the source list. If your Note is in that list, your framing competes with — and sometimes overrides — the framing implicit in the original documents. You are not just asking questions of the corpus. You are shaping the lens through which the corpus is interpreted.

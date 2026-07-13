@@ -31,7 +31,7 @@ This is called Retrieval-Augmented Generation, or RAG. NotebookLM is Google's co
 
 <!-- → [FIGURE: Bounded vs. open-loop architecture — left: uploaded sources → retrieval → model → grounded response with citation arrow back to source; right: training data → model → response, no citation path. Caption: Every answer traces to a passage. If the passage isn't there, the answer isn't grounded.] -->
 
-![Architecture diagram comparing NotebookLM's bounded retrieval path (sources → retrieval → grounded response with citation back to sources) against an open-loop general chatbot (training data → model → response with no citation path)](images/01-the-bounded-tool-fig-01.svg)
+![Architecture diagram comparing NotebookLM's bounded retrieval path (sources → retrieval → grounded response with citation back to sources) against an open-loop general chatbot (training data → model → response with no citation path)](images/01-the-bounded-tool-fig-01.png)
 *Every answer traces to a passage. If the passage isn't there, the answer isn't grounded.*
 
 Three things change under this architecture.

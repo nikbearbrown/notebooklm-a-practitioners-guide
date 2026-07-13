@@ -19,7 +19,7 @@ The bottleneck in literature review is not reading speed — it is holding forty
 
 <!-- → [FIGURE: Research synthesis workflow — horizontal flow diagram: upload corpus → Notebook Guide orientation → cross-corpus query → gap query → Briefing Doc → Note promoted to source → follow-up queries with compound corpus. Caption: The leverage is the cross-corpus query. Single-document queries use 2% of the tool's capability.] -->
 
-![Research synthesis workflow diagram: upload corpus, open Notebook Guide, run cross-corpus query (highest leverage), run gap query, generate Briefing Doc, promote to Note source, run follow-up queries on compound corpus](images/11-workflows-fig-01.svg)
+![Research synthesis workflow diagram: upload corpus, open Notebook Guide, run cross-corpus query (highest leverage), run gap query, generate Briefing Doc, promote to Note source, run follow-up queries on compound corpus](images/11-workflows-fig-01.png)
 *The leverage is in the cross-corpus query. Single-document queries use a fraction of the tool's capability.*
 
 **Steps:**

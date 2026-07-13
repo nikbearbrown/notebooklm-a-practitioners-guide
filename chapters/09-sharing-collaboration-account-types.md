@@ -43,7 +43,7 @@ What changes is what happens to your data underneath. This is the part that matt
 
 <!-- → [TABLE: Account type comparison — columns: Account type, Data used for training?, Enterprise ToS?, Admin visibility?, Best for. Rows: Personal Gmail / Google Workspace / Google Workspace for Education.] -->
 
-![Table comparing three NotebookLM account types — Personal Gmail, Google Workspace, and Google Workspace for Education — across data training use, enterprise terms, admin visibility, and best use case](images/09-sharing-collaboration-account-types-tbl-01.svg)
+![Table comparing three NotebookLM account types — Personal Gmail, Google Workspace, and Google Workspace for Education — across data training use, enterprise terms, admin visibility, and best use case](images/09-sharing-collaboration-account-types-tbl-01.png)
 *Two sessions can look identical. The data-governance reality underneath is structurally different. Know which account you're on before you add sensitive material.*
 
 ---
